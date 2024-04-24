@@ -1,3 +1,3 @@
 {
-	  "version": "2.0.0",  "name": "@leprecha1/teamundo",  "description": "description",  "author": {    "name": "teamundo",    "email": "mrleprecha1purplesentinel@gmail.com"  },  "repository": {      "type": "git",      "url": "https://github.com/leprecha1/teamundo"  },  "publishConfig": {    "registry": "https://npm.pkg.github.com/leprecha1"  }
+	  "version": "2.0.1",  "name": "@leprecha1/teamundo",  "description": "description",  "author": {    "name": "teamundo",    "email": "mrleprecha1purplesentinel@gmail.com"  },  "repository": {      "type": "git",      "url": "https://github.com/leprecha1/teamundo.git"  },  "publishConfig": {    "registry": "https://npm.pkg.github.com/leprecha1"  }
 }
