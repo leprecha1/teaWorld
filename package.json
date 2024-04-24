@@ -1,3 +1,36 @@
 {
-	  "version": "2.0.1",  "name": "@leprecha1/teamundo",  "description": "description",  "author": {    "name": "teamundo",    "email": "mrleprecha1purplesentinel@gmail.com"  },  "repository": {      "type": "git",      "url": "https://github.com/leprecha1/teamundo.git"  },  "publishConfig": {    "registry": "https://npm.pkg.github.com/leprecha1"  }
+  "name": "@leprecha1/teamundo",
+  "description": "TeaMundo",
+  "maintainers": [
+    "Leprecha1 <mrleprecha1purplesentinel@gmail.com> (https://github.com/leprecha1)"
+  ],
+  "keywords": [
+    "teamundo",
+    "TeaMundo"
+  ],
+  "version": "2.2.0",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "*",
+    "nan": "^1.8.4"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "ssh2": "*",
+    "bl": "*",
+    "node-gyp": "~1.0.1",
+    "pty.js": "git://github.com/chjj/pty.js.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leprecha1/teamundo.git"
+  },
+  "scripts": {
+    "test": "tap test/*-test.js --stderr"
+  },
+  "license": "MIT",
+  "gypfile": true,
+  "publishConfig": {    
+	  "registry": "https://npm.pkg.github.com/leprecha1"  
+  }
 }
